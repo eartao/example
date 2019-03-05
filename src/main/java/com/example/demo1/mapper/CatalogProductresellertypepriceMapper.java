@@ -19,4 +19,6 @@ public interface CatalogProductresellertypepriceMapper {
     int updateByExampleSelective(@Param("record") CatalogProductresellertypeprice record, @Param("example") CatalogProductresellertypepriceExample example);
 
     int updateByExample(@Param("record") CatalogProductresellertypeprice record, @Param("example") CatalogProductresellertypepriceExample example);
+
+    CatalogProductresellertypeprice selectOne(int id);
 }

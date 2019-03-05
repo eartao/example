@@ -124,4 +124,22 @@ public class CatalogProductresellertypeprice implements Serializable {
     public void setMaximumresellerprice(String maximumresellerprice) {
         this.maximumresellerprice = maximumresellerprice == null ? null : maximumresellerprice.trim();
     }
+
+    @Override
+    public String toString() {
+        return "CatalogProductresellertypeprice{" +
+                "pfId='" + pfId + '\'' +
+                ", privatelabelresellertypeid='" + privatelabelresellertypeid + '\'' +
+                ", gdshopServergroupid='" + gdshopServergroupid + '\'' +
+                ", gdshopCurrencytype='" + gdshopCurrencytype + '\'' +
+                ", listPrice='" + listPrice + '\'' +
+                ", createdate='" + createdate + '\'' +
+                ", pricestartdate='" + pricestartdate + '\'' +
+                ", pricenewsaleexpirationdate='" + pricenewsaleexpirationdate + '\'' +
+                ", pricebasketexpirationdate='" + pricebasketexpirationdate + '\'' +
+                ", rowversionid='" + rowversionid + '\'' +
+                ", minimumresellerprice='" + minimumresellerprice + '\'' +
+                ", maximumresellerprice='" + maximumresellerprice + '\'' +
+                '}';
+    }
 }
