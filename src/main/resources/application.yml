@@ -1,0 +1,21 @@
+spring:
+#  thymeleaf:
+#    cache: false
+#    suffix: .html
+  datasource:
+
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/eartao?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+server:
+  port: 8080
+#  servlet:
+#    context-path: /priceCheck
+
+
+#mybatis:
+#  mapper-locations: classpath:com/example/demo/mapper/*.xml
+#java -jar demo-0.0.1-SNAPSHOT.jar --spring.profiles.active=dev
+#java -jar demo-0.0.1-SNAPSHOT.jar --spring.profiles.active=prod
+
